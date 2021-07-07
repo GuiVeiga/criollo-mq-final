@@ -1,0 +1,10 @@
+local
+
+python labelme2coco.py train --output train.json
+python labelme2coco.py test --output test.json
+python labelme2coco.py val --output val.json
+
+colab (provavelmente)
+
+python labelme2coco.py train train.json
+python labelme2coco.py test test.json
